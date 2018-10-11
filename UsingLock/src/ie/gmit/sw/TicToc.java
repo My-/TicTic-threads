@@ -4,6 +4,12 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * Prints "Tic" and "Toc" using threads.
+ *
+ * @author Mindaugas Sharskus
+ * @date 11-10-2018
+ */
 public class TicToc {
 
     private static final String TIC_THREAD_NAME = "Tic";
@@ -96,5 +102,3 @@ public class TicToc {
     }
 
 }
-
-
